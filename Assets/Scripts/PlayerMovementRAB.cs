@@ -24,13 +24,6 @@ public class PlayerMovementRAB : MonoBehaviour
         winTextObject.SetActive(false);
     }
 
-    // private void OnMove(InputValue movementValue)
-    // {
-    //     Vector2 movementVector = movementValue.Get<Vector2>();
-
-    //     movementX = movementVector.x;
-    //     movementY = movementVector.y;
-    // }
 
     private void FixedUpdate()
     {
